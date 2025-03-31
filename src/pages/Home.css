@@ -1,0 +1,125 @@
+/* General styling */
+
+
+.mainhome {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx9PHhihjgVyIvjuivEr4b6RTSFGhD6_f4nw&s'); /* Replace with your image URL */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    background-size: cover; /* Ensures the image covers the entire area */
+    background-position: center; /* Centers the image within the element */
+    background-attachment: fixed; 
+    width: 100%;
+  }
+  
+  .home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+  }
+  
+  .text-container {
+    max-width: 55%;
+  }
+  
+  h2 {
+    color: #2c3e50;
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  h3 {
+    color: #34495e;
+    font-size: 28px;
+    margin: 10px 0;
+  }
+  
+  h4 {
+    color: #7f8c8d;
+    font-size: 22px;
+    font-style: italic;
+    margin-top: 20px;
+  }
+  
+  button {
+    background-color: #3498db;
+    color: white;
+    font-size: 18px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  .img-container {
+    max-width: 40%;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 49%;
+    object-fit: cover;
+    border: 4px solid #3498db;
+  }
+ 
+  .details {
+    color: #7f8c8d;
+    font-size: 22px;
+    font-style: italic;
+    margin-top: 20px;
+    box-sizing: border-box;
+    background-color: #ffffff;  /* White background for the box */
+    padding: 20px;              /* Padding inside the box */
+    border: 2px solid #3498db;  /* Blue border around the box */
+    border-radius: 8px;         /* Rounded corners for the box */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow for 3D effect */
+    width: 750px;               /* Set a fixed width for the box */
+    text-align: center;         /* Center text inside the box */
+    margin-left: 30px; 
+    height: auto;
+  }
+  
+  
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .home {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .text-container, .img-container {
+      max-width: 100%;
+      text-align: center;
+    }
+  
+    h2 {
+      font-size: 28px;
+    }
+  
+    h3 {
+      font-size: 24px;
+    }
+  
+    h4 {
+      font-size: 18px;
+    }
+  
+    button {
+      padding: 12px 25px;
+    }
+  
+    img {
+      width: 150px;
+      height: 150px;
+    }
+  }
+  

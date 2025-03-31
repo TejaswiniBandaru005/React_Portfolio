@@ -1,0 +1,11 @@
+*{
+    margin: 0%;
+    border: 0;
+    padding: auto;
+}
+
+img{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
