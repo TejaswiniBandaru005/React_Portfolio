@@ -1,0 +1,100 @@
+/* Project.css */
+
+/* General container for the project section */
+.Project {
+    text-align: center;
+    margin: 50px 0;
+  }
+  
+  .Project h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .Project p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .btn1 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .btn1 button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .btn1 button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Container to hold all the project boxes */
+  .projectcontainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap; /* Ensure the layout is responsive */
+  }
+  
+  .project-box {
+    width: 250px;
+    height: 350px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .project-box:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+  }
+  
+  .project-img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 5px;
+  }
+  
+  .project-box h2 {
+    font-size: 20px;
+    margin-top: auto;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .project-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .project-button:hover {
+    background-color: #45a049;
+  }
+  
+  .project-link {
+    text-decoration: none; /* Remove underline from link */
+  }
+  

@@ -1,0 +1,79 @@
+/* MySkills.css */
+
+.MySkills {
+    text-align: center;
+    margin: 50px 0;
+  }
+  
+  .MySkills h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .MySkills h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .MySkills p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto 30px;
+  }
+  
+  .btn1 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .btn1 button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .btn1 button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Styling for the box container */
+  .boxcontainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+  }
+  
+  .skill-box {
+    width: 250px;
+    height: 300px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .skill-img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 5px;
+  }
+  
+  .skill-box h2 {
+    font-size: 20px;
+    margin-top: auto;
+    color: #333;
+    font-weight: bold;
+  }
+  

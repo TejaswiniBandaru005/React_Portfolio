@@ -1,0 +1,75 @@
+/* About.css */
+.about-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  background-image: url('/images/kitsbg.jpeg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.about-content {
+  text-align: center;
+  padding: 40px;
+  background-color: white; /* Opaque white background */
+  border-radius: 10px;
+  max-width: 600px;
+  width: 80%;
+  color: #333;
+}
+
+.about-content h2 {
+  font-size: 36px;
+  color: #4CAF50; /* Green color for the heading */
+}
+
+.about-content p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-top: 10px;
+  color: rgb(0, 0, 0);
+}
+
+.btn {
+  margin-top: 20px;
+  background-color: #4CAF50;
+  border-radius: 10%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover {
+  background-color: rgb(23, 16, 158);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.link-button {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.project {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay to make the text pop */
+}
